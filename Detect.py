@@ -4,7 +4,7 @@ import time
 
 people=0
 
-# DOWNLOAD THE BELOW FILES FROM http://shelwyn.in/yolov3.zip
+# DOWNLOAD THE BELOW FILES FROM http://bluerabbit.me/yolov3.zip
 class args:
     image = 'opencv_frame.png'
     config = 'yolov3.cfg'
