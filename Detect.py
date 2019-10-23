@@ -39,11 +39,11 @@ while True:
     k = cv2.waitKey(1)
 
     if k%256 == 27:
-        # ESC pressed
+        # WHEN ESC KEY PRESSED
         print("Escape hit, closing...")
         break
     else:
-        # SPACE pressed
+        # PRESS SPACE BAR
         time.sleep(5)
         img_name = "opencv_frame.png".format(img_counter)
         cv2.imwrite(img_name, frame)
